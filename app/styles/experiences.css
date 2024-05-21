@@ -1,0 +1,59 @@
+.experiences__title h3{
+    padding:16px 24px;
+}
+
+.experiences_card{
+    padding: 24px;
+}
+
+.card_image_info{
+    max-width: 395px;
+}
+
+.card_image img{
+    object-fit: cover;
+    border-radius: 6.77px;
+}
+
+.card_info{
+    padding-top: 22px;
+}
+
+.card_title_rating{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.card_rating{
+    padding:4px;
+    color: #D7C417;
+    display: flex;
+    align-items: center;
+}
+
+.package_info{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.package_info p{
+    font-weight: 500;
+    font-size: 20.32px;
+    line-height: 26.46px;
+    color: #4AB5E3;
+    display: flex;
+    align-items: center;
+    padding-right: 22px;
+}
+
+.package_info span{
+   padding-left: 4px;
+}
+
+.experiences_card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px
+}

@@ -3,6 +3,7 @@ import "./page.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ProfileInfo from "./components/ProfileInfo";
+import Experiences from "./components/Experiences";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <div className="container">
         <Hero />
         <ProfileInfo />
+        <Experiences />
       </div>
       
     </main>

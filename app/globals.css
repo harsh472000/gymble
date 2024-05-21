@@ -133,6 +133,19 @@ a {
   line-height: 16px;
 }
 
+.card_title_font{
+  font-weight: 500;
+  font-size: 30.48px;
+  line-height: 39.60px;
+}
+
+.card_city_font{
+  font-weight: 400;
+  font-size: 20.32px;
+  line-height: 24.39px;
+  color: #969696;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

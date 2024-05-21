@@ -1,0 +1,42 @@
+.navbar{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar_left img{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 43px;
+}
+
+.navbar_left{
+    display: flex;
+    align-items: center;
+}
+
+.navbar_left input{
+    width: 331px;
+    padding:16px;
+    border: 1px solid var(--input-border);
+    border-radius: 100px;
+}
+
+.navbar_right{
+    display: flex;
+    align-items: center;
+}
+
+.navbar_location_pin{
+    display: flex;
+    margin-right: 38px;
+}
+
+.navbar_location_pin img{
+    margin-right: 12px;
+}
+
+.navbar_menu ul{
+    display: flex;
+    gap:38px;
+}

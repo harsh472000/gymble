@@ -1,0 +1,25 @@
+.profile_info{
+    display: flex;
+}
+
+.left_title_subtitle h3, .rigtside_title h3, .profile_links{
+    padding:16px 24px;
+}
+
+.left_title_subtitle p{
+    padding: 24px;
+    max-width: 814px;
+}
+
+.icon_label{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+}
+
+.profile_links{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

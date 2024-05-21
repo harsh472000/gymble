@@ -20,9 +20,9 @@ const ProfileInfo = () => {
                 <div className="profile_links">
                     
                         {
-                            PROFILE_INFO.map((info) => {
+                            PROFILE_INFO.map((info,index) => {
                                 return (
-                                    <div className='icon_label'>
+                                    <div className='icon_label' key={index}>
                                         <Image src={info.icon} alt={info.alt} />
                                         <span>{info.label}</span>
                                     </div>

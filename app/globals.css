@@ -43,6 +43,8 @@
   --input-border: #DFDFDF;
   --menu-font-color:#626161;
   --profile-subtitle-color:#757575;
+  --border-color:#EFEEEE;
+  /* --border-color:red; */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -158,6 +160,15 @@ a {
   font-size: 17.32px;
   line-height: 24.39px;
   color: #969696;
+}
+
+.border{
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+}
+
+.border-bottom{
+  border-bottom: 1px solid var(--border-color);
 }
 
 @media (prefers-color-scheme: dark) {

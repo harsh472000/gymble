@@ -31,6 +31,9 @@
     display: flex;
     margin-right: 38px;
     align-items: center;
+    padding: 15px 16px;
+    background-color: #F8F8F8;
+    border-radius: 16px;
 }
 
 .navbar_location_pin img{

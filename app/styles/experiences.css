@@ -64,3 +64,13 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap:20px
 }
+
+@media only screen and (min-width: 1500px)  {
+    .card_image_info{
+        max-width: -webkit-fill-available;
+    }
+    .card_image img{
+        width: -webkit-fill-available;
+        height: 250px;
+    }
+}

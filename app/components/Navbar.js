@@ -16,7 +16,7 @@ const Navbar = () => {
             </Link>
             <div className='navbar_searchbar'>
     <div className='input_wrapper'>
-        <input type='text' placeholder='search' />
+        <input type='text' placeholder='Search' />
         <Image src={search_icon} alt="search_icon" className='search_icon' />
     </div>
 </div>

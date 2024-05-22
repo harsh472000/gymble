@@ -1,5 +1,7 @@
 .profile_info{
-    display: flex;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 2fr 1fr;
 }
 
 .left_title_subtitle h3, .rigtside_title h3, .profile_links{
@@ -21,4 +23,11 @@
 .profile_links{
     display: flex;
     flex-direction: column;
+    gap:12px
 }
+
+.left_side{
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+}
+

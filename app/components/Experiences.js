@@ -5,9 +5,9 @@ import { TRAINING_SESSIONS } from '../constants';
 
 const Experiences = () => {
   return (
-    <section className='experiences'>
+    <section className='experiences border'>
         <div className='experiences__title'>
-            <h3>Experience</h3>
+            <h3 className='border-bottom'>Experience</h3>
         </div>
         <div className='experiences_cards'>
             <div className='experiences_card'>

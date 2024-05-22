@@ -17,7 +17,8 @@
 }
 
 .card_container{
-    width: 270px;
+    /* width: 270px; */
+    width: -webkit-fill-available;
 }
 .card_information{
     display: flex;

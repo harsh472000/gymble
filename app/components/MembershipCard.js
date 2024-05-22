@@ -29,7 +29,7 @@ const MembershipCard = ({membership}) => {
                     </ul>
                 </div>
                 <div className='card_button'>
-                    <button className='joinnow_btn'>join now <Image src={arrow_right} alt='right arrow' /></button>
+                    <button className='joinnow_btn'>{membership.buttonLabel} <Image src={arrow_right} alt='right arrow' /></button>
                 </div>
             </div>
         </div>

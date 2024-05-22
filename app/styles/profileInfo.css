@@ -31,3 +31,8 @@
     border-radius: 16px;
 }
 
+@media only screen and (min-width: 1500px)  {
+    .left_title_subtitle p{
+        max-width: -webkit-fill-available;
+    }
+}

@@ -45,13 +45,15 @@
 
 .package_info p{
     font-weight: 500;
-    font-size: 16.32px;
+    font-size: 13.32px;
     line-height: 26.46px;
     color: #4AB5E3;
     display: flex;
     align-items: center;
     padding-right: 22px;
 }
+
+
 
 .package_info span{
    padding-left: 4px;

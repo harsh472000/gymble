@@ -65,6 +65,12 @@
     gap:20px
 }
 
+.button_wrapper{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+
 @media only screen and (min-width: 1500px)  {
     .card_image_info{
         max-width: -webkit-fill-available;

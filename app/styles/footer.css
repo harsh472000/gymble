@@ -81,3 +81,9 @@ footer{
     font-size: 16px;
     line-height: 24px;
 }
+
+@media only screen and (min-width: 1500px)  {
+    .footer_left_right{
+        gap:480px
+    }
+}

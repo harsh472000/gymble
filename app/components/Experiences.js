@@ -21,6 +21,9 @@ const Experiences = () => {
                
             </div>
         </div>
+        <div className='button_wrapper'>
+            <button className='loadmore_btn'>LOAD MORE</button>
+        </div>
     </section>
   )
 }

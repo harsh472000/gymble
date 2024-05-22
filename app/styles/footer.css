@@ -4,6 +4,7 @@ footer{
     background-image: url('../assets/footer_bg_logo.png');
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: 66px;
 }
 .footer_container{
     padding: 72px 80px 56px 80px;
@@ -59,15 +60,24 @@ footer{
     line-height: 12px;
     font-weight: 500;
     padding-top:14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .follow_us ul{
     display: flex;
     flex-direction: row;
     padding-top:12px;
-    gap:16px;
+    gap:8px;
 }
 
 .footer_copyright{
     padding-top: 100px;
+}
+
+.footer_subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }

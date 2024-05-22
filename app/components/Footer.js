@@ -2,6 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import footer_logo from '../assets/footer_logo.png';
+import w_mail_line from '../assets/w_mail_line.svg';
+import w_phone_line from '../assets/w_phone_line.svg';
 import { IMP_LINKS, BUSSINESS_OWNER,FOOTER_SOCIAL_ICONS } from '../constants';
 import '../styles/footer.css';
 
@@ -14,7 +16,7 @@ const Footer = () => {
                         <div className='footer_logo'><Image src={footer_logo} alt="footer logo" /> <p>GYMBLE</p></div>
                         <div className='footer_address'>
                             <p>Address</p>
-                            <p>Lorem ipsum Dolor Amet</p>
+                            <div className='footer_subtitle'>Lorem ipsum Dolor Amet</div>
                         </div>
                     </div>
                     <div className='footer_right'>
@@ -47,11 +49,11 @@ const Footer = () => {
                             <ul>
                                 <div className='need_help'>
                                     <p>Need Help?</p>
-                                    <p className='footer_link_font'>GYMBLE@gmail.com</p>
+                                    <p className='footer_link_font'><Image src={w_mail_line} alt="mail icon" />GYMBLE@gmail.com</p>
                                 </div>
                                 <div className='need_help'>
                                     <p>Need Support?</p>
-                                    <p className='footer_link_font'>(01) 684 0124</p>
+                                    <p className='footer_link_font'><Image src={w_phone_line} alt="mail icon" />(01) 684 0124</p>
                                 </div>
                                 <div className='follow_us'>
                                     <p>Follow Us</p>

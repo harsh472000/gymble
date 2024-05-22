@@ -5,7 +5,7 @@ import { MEMBERSHIP_PLANS } from '../constants';
 
 const Memberships = () => {
   return (
-    <section>
+    <section className='membership_container'>
         <div className='membership_title'>
             <h3>Membership</h3>
         </div>

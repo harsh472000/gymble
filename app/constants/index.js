@@ -122,5 +122,14 @@ export const TRAINING_SESSIONS = [
         price: "$50/person, $300/package",
         duration: "1 hour",
         image: baseball
+    },
+    {
+        title: "Train Like a Pro",
+        location: "Long Island, NY",
+        rating: 4.9,
+        reviews: 120,
+        price: "$100/person, $450/package",
+        duration: "5 hours",
+        image: racket
     }
 ];

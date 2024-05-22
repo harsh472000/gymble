@@ -3,11 +3,11 @@
 }
 
 .left_title_subtitle h3, .rigtside_title h3, .profile_links{
-    padding:16px 24px;
+    padding:12px 24px;
 }
 
 .left_title_subtitle p{
-    padding: 24px;
+    padding: 12px 24px;
     max-width: 814px;
 }
 

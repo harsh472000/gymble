@@ -2,12 +2,16 @@
     padding:16px 24px;
 }
 
+.experiences{
+    margin-top: 32px;
+}
+
 .experiences_card{
     padding: 24px;
 }
 
 .card_image_info{
-    max-width: 395px;
+    max-width: 285px;
 }
 
 .card_image img{
@@ -41,7 +45,7 @@
 
 .package_info p{
     font-weight: 500;
-    font-size: 20.32px;
+    font-size: 16.32px;
     line-height: 26.46px;
     color: #4AB5E3;
     display: flex;
@@ -55,6 +59,6 @@
 
 .experiences_card{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap:20px
 }

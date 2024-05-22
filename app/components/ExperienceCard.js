@@ -8,12 +8,12 @@ const ExperienceCard = ({training}) => {
   return (
     <div className='card_image_info'>
         <div className='card_image'>
-            <Image src={training.image} alt="racket image" width={395} height={253.12}/>
+            <Image src={training.image} alt="racket image" width={285} height={200.12}/>
         </div>
         <div className='card_info'>
             <div className='card_title_rating'>
                 <div className='card_title'>
-                    <p className='card_title_font'>{training.title}</p>
+                    <h3>{training.title}</h3>
                     <p className='card_city_font'>{training.location}</p>
                 </div>
                 <div className='card_rating'>

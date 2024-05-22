@@ -47,7 +47,7 @@ footer{
     display: flex;
     flex-direction: column;
     padding-top: 32px;
-    gap:24px;
+    gap:16px;
 }
 
 .footer_right{

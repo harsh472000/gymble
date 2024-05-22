@@ -20,9 +20,9 @@ const MembershipCard = ({membership}) => {
                 <div className='card_points'>
                     <ul>
                         {
-                            membership.features.map((feature)=>{
+                            membership.features.map((feature,index)=>{
                                 return(
-                                    <li><Image src={checkbox_circle} alt='checkbox circle'/> <span className='memebership_point_font'>{feature}</span></li>
+                                    <li key={index}><Image src={checkbox_circle} alt='checkbox circle'/> <span className='memebership_point_font'>{feature}</span></li>
                                 )
                             })
                         }

@@ -30,6 +30,7 @@
 .navbar_location_pin{
     display: flex;
     margin-right: 38px;
+    align-items: center;
 }
 
 .navbar_location_pin img{

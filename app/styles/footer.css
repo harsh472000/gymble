@@ -1,6 +1,9 @@
 footer{
     background-color: #4AB5E3;
     color: #FFFFFF;
+    background-image: url('../assets/footer_bg_logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .footer_container{
     padding: 72px 80px 56px 80px;

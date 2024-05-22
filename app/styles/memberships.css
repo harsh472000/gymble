@@ -15,6 +15,12 @@
 .card_container{
     width: 270px;
 }
+.card_information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 480px;
+}
 
 .membership_card_title p{
     font-weight: 700;

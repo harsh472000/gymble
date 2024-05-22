@@ -43,7 +43,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className='important_links'>
-                        <p className='title'>Bussiness Owner</p>
+                        <p className='title'>Contact Us</p>
                             <ul>
                                 <div className='need_help'>
                                     <p>Need Help?</p>

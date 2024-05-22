@@ -29,13 +29,6 @@
     color: #4DB5E2;
 }
 
-.card_description{
-    padding-top: 28px;
-}
-
-.card_points, .card_button{
-    padding-top: 36px;
-}
 
 .card_points li{
     list-style: none;

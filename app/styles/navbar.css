@@ -4,7 +4,7 @@
     justify-content: space-between;
 }
 
-.navbar_left img{
+.navbar_left .navbar_image img{
     margin-top: 16px;
     margin-bottom: 16px;
     margin-right: 43px;
@@ -40,4 +40,30 @@
 .navbar_menu ul{
     display: flex;
     gap:38px;
+}
+
+.navbar_searchbar {
+    position: relative;
+    width: 100%;
+}
+
+.input_wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 341px;
+    padding-left: 40px; /* Adjust padding to fit the icon */
+    box-sizing: border-box; /* Ensure padding is included in the total width */
+}
+
+.search_icon {
+    position: absolute;
+    left: 10px; /* Adjust this value to position the icon within the input */
+    pointer-events: none; /* Ensure the icon doesn't block input interactions */
+    height: 20px; /* Adjust the icon size as needed */
+    width: 20px;
 }

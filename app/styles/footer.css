@@ -7,7 +7,7 @@ footer{
     margin-top: 66px;
 }
 .footer_container{
-    padding: 72px 80px 56px 80px;
+    padding: 58px 80px 56px 80px;
 }
 
 .footer_logo{
@@ -34,7 +34,7 @@ footer{
 
 .footer_left_right{
     display: flex;
-    gap:247px
+    gap:180px
 }
 
 .title{

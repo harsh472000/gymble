@@ -28,13 +28,13 @@ const Hero = () => {
         //     </div>
         // </section >
         <>
-            <div class="header-container">
-                <div class="header-background">
-                    <Image src={hero} alt="Gym Background" class="background-image" height={320} width={1260} />
+            <div className="header-container">
+                <div className="header-background">
+                    <Image src={hero} alt="Gym Background" className="background-image" height={320} width={1260} />
                 </div>
             </div>
-            <div class="header-content">
-                <div class="logo-section">
+            <div className="header-content">
+                <div className="logo-section">
                     <div className='logo_image'>
                         <Image src={logo} alt="Gymble Logo" height={110} width={78} />
                     </div>

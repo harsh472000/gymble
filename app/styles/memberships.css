@@ -1,0 +1,67 @@
+.membership_title h3{
+    padding:16px 24px;
+}
+
+.membership_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 36px;
+}
+
+.membership_cards{
+    padding: 24px;
+}
+
+.card_container{
+    width: 270px;
+}
+
+.membership_card_title p{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #4DB5E2;
+}
+
+.card_description{
+    padding-top: 28px;
+}
+
+.card_points, .card_button{
+    padding-top: 36px;
+}
+
+.card_points li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.card_points ul{
+    display: flex;
+    flex-direction: column;
+    gap:18px
+}
+
+.card_points ul li span{
+    padding-left: 10px;
+}
+
+.joinnow_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11.15px 0px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #4AB5E3;
+    border: none;
+    border-radius: 100px;
+}
+
+.card_button img{
+    margin-left: 10px;
+}

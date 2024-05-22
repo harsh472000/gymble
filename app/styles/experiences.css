@@ -30,6 +30,7 @@
     color: #D7C417;
     display: flex;
     align-items: center;
+    gap:4px
 }
 
 .package_info{

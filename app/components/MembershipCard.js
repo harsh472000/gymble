@@ -5,7 +5,6 @@ import arrow_right from '../assets/arrow_right.svg';
 import '../styles/memberships.css';
 
 const MembershipCard = ({membership}) => {
-    console.log(membership);
     return (
         <div className='card_container'>
             <div className='card_information'>
